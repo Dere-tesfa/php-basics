@@ -7,6 +7,19 @@
 4.The variable name can contain letters,digitsor underscore.
 5.PHP is case sensitive,so $Name and $name are distinct variables
 
+
+
+Predefined Variable
+There are 12 predefined variables in php 8
+1.$GLOBALS
+2.$_SERVER
+3.$_REQUEST
+4.$_FILES
+5.$_ENV
+6.$_SESSION
+7.$_COOKIE
+8.$_GET
+9.$_POST
 */
 $name="dereje";
 
