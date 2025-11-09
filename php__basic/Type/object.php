@@ -1,0 +1,16 @@
+<?php
+class Car {
+    public $color;
+    public $model;
+
+    public function __construct($color, $model) {
+        $this->color = $color;
+        $this->model = $model;
+    }
+
+    public function getMessage() {
+        return "The car is a " . $this->color . " " . $this->model . ".";
+    }
+}
+
+?>
