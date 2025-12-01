@@ -12,4 +12,21 @@ elseif($score>=70){
 else{
    var_dump("Grade F");
 }
+
+
+$age=10;
+$isIdCard=true;
+if($isIdCard)
+if($age>=18)
+   echo "you are to vote";
+
+
+elseif($age<=18)
+   echo "the age is less than 18 not vote"
+
+else
+   echo " you are not to vote";
+
+
+
 ?>

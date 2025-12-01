@@ -1,16 +1,16 @@
 <?php
 $x=10;
-echo gettype($x);//integer
+echo gettype($x) ."<br>";//integer
 $name="dereje";
-echo gettype($name);//string    
+echo gettype($name)."<br>";//string    
 $price=19.99;
-echo gettype($price);//double
+echo gettype($price) ."<br>";//double
 $istrue=true;
-echo gettype($istrue);//boolean
+echo gettype($istrue) ."<br>";//boolean
 $y=null;
-echo gettype($y)."\n";//null
+echo gettype($y)."<br>";//null
 $array=array("apple", "banana", "cherry");
-echo gettype($array)."\n";//array
+echo gettype($array)."<br>";//array
 
 
 ?>
