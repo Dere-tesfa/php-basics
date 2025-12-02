@@ -31,4 +31,6 @@ echo $age["jone"]."</br>";
 $products=["Labtop"=>15000,"memory"=>250,"monitor"=>450000];
 var_dump($products);
 echo "</br>";
-?>
+$php=["Title"=>"Php associative array","Description"=>"This is a php associative array example"];
+var_dump($php);
+echo "</br>";

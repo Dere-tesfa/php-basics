@@ -22,9 +22,10 @@ if($age>=18)
 
 
 elseif($age<=18)
-   echo "the age is less than 18 not vote"
+   echo "the age is less than 18 not vote";
 
 else
+   
    echo " you are not to vote";
 
 
